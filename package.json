@@ -1,5 +1,5 @@
 {
-  "name": "nucampsite",
+  "name": "scheduler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/KitaGaither/Scheduler.git",
+  "repository": "https://github.com/jvpink200/Scheduler.git",
   "author": "jvpink200 <jvillarr20@gmail.com>",
   "license": "MIT"
 }
