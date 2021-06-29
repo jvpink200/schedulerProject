@@ -1,11 +1,16 @@
-import React, { Component} from 'react';
-import Card from './components/CardComponents.js';
+import React, { Component } from 'react';
+import CardAnimation from './components/CardAnimationComponent';
 import './App.css';
 
 class App extends Component {
   render() {
     return(
-      <Card />
+      <React.Fragment>
+        <div className="App">
+          <CardAnimation />
+        </div>
+
+      </React.Fragment>
     );
   }
 }
