@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import CardAnimation from './components/CardAnimationComponent';
+import Main from './components/MainComponents';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
   render() {
-    return(
-      <React.Fragment>
-        <div className="App">
-          <CardAnimation />
-        </div>
-
-      </React.Fragment>
+    return (
+      <BrowserRouter>
+        <React.Fragment>
+          <Main />
+        </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
