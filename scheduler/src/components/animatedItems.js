@@ -3,6 +3,7 @@ import scheduler from '../animatedImages/images/scheduler.png';
 import gitHubImage from '../animatedImages/images/gitHubImage.png';
 import blankIpadPro from '../animatedImages/images/blank-ipad-pro.jpg';
 import '../style.css';
+
 function AnimatingItems() {
   return (
     <React.Fragment>
