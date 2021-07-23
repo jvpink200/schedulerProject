@@ -30,25 +30,6 @@ class Header extends Component {
                     <i className='fa fa-home fa-lg' /> Home
                   </NavLink>
                 </NavItem>
-
-                <NavItem>
-                  <NavLink className='nav-link' to='/cardanimatedpage'>
-                    <i className='fa fa-list fa-lg' /> CardAnimatedPage
-                  </NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink className='nav-link' to='/animateditemspage'>
-                    <i className='fa fa-list fa-lg' /> AnimatedItemsPage
-                  </NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink className='nav-link' to='/thirdcomponentpage'>
-                    <i className='fa fa-list fa-lg' /> ThirdComponentPage
-                  </NavLink>
-                </NavItem>
-
                 <NavItem>
                   <NavLink className='nav-link' to='/about'>
                     <i className='fa fa-info fa-lg' /> About

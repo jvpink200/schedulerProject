@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Row, Col, Container } from 'react';
 import { Card, CardImg } from 'reactstrap';
 
 class CardAnimation extends Component {
@@ -6,43 +6,43 @@ class CardAnimation extends Component {
     return (
       <React.Fragment>
         <div
+          className='cardAnimationDiv'
           style={{
-            backgroundColor: 'white',
-            width: '25%',
-            height: '1000px',
+            backgroundColor: '#031425',
+            width: '100%',
+            height: '500px',
             margin: '0',
           }}
         />
-
         <div className='page-body'>
           <div className='card-holder'>
-            <Card className='card'>
+            <Card className='card-anime'>
               <CardImg
-                className='card-img'
+                className='card-img-anime'
                 variant='top'
                 src='../assets/images/ladycalendar.jpg'
               />
             </Card>
 
-            <Card className='card'>
+            <Card className='card-anime'>
               <CardImg
-                className='card-img'
+                className='card-img-anime'
                 variant='top'
                 src='../assets/images/tableclock.jpg'
               />
             </Card>
 
-            <Card className='card'>
+            <Card className='card-anime'>
               <CardImg
-                className='card-img'
+                className='card-img-anime'
                 variant='top'
                 src='../assets/images/browncalendar.jpg'
               />
             </Card>
 
-            <Card className='card'>
+            <Card className='card-anime'>
               <CardImg
-                className='card-img'
+                className='card-img-anime'
                 variant='top'
                 src='../assets/images/piccollage.jpg'
               />
