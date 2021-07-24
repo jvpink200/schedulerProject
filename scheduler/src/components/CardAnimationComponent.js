@@ -8,7 +8,7 @@ class CardAnimation extends Component {
         <div
           className='cardAnimationDiv'
           style={{
-            backgroundColor: '#031425',
+            backgroundColor: '#2285AB',
             width: '100%',
             height: '500px',
             margin: '0',

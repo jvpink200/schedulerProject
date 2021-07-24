@@ -7,7 +7,7 @@ import '../style.css';
 function AnimatingItems() {
   return (
     <React.Fragment>
-      <section className='bk'>
+      <section className='bk no-transition'>
         <img className='ipad' src={blankIpadPro} alt='scheduler' />
         <img className='scheduler' src={scheduler} alt='scheduler' />
         <img className='gitHubImage' src={gitHubImage} alt='github logo' />
