@@ -1,16 +1,20 @@
-import React, { Component, Row, Col, Container } from 'react';
+import React, { Component } from 'react';
 import { Card, CardImg } from 'reactstrap';
 
 class CardAnimation extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="pt-4 pb-1 text-center text-white orange">
+          <h2 className="gray-text">Impressive Collection of Features</h2>
+          <p className="pt-2">Designed to work seamlessly together</p>
+        </div>
         <div
           className='cardAnimationDiv'
           style={{
-            backgroundColor: '#2285AB',
+            backgroundColor: '#F48C1B',
             width: '100%',
-            height: '500px',
+            height: '400px',
             margin: '0',
           }}
         />

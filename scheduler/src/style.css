@@ -49,6 +49,7 @@
 .bk {
   position: relative;
   margin: auto;
+  background: #987DB5;
 }
 
 .ipad {
@@ -61,4 +62,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.orange {
+  background-color: #F48C1B;
+}
+
+.card-version-img {
+  width:300px;
+  font-size: 2rem;
+}
+
+.scheduler-version{
+  background-color: #E3E3E3;
+  align-items:center;
 }

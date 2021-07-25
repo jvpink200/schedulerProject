@@ -2,9 +2,9 @@
 .card-holder {
   position: absolute;
   height: 300px;
-  width: 500px;
-  top: 250px;
-  left: calc(50% - 300px);
+  width: 700px;
+  top: 300px;
+  left: calc(50% - 350px);
   display: flex;
   padding-top: 300px;
 }
@@ -38,7 +38,6 @@
 
 .card-anime:hover ~ .card-anime {
   position: relative;
-  left: 40px;
   transition: 0.4s ease-in-out;
 }
 
@@ -81,14 +80,9 @@
   text-align: center;
 }
 
-h1 {
-  color: #089ee7;
-  text-align: center;
-}
-
-.p-text {
-  color: #089ee7;
-  text-align: center;
+.gray-text {
+  color: #F8B72D;
+  font-weight:bold;
 }
 
 @media screen and (max-width: 600px) {
