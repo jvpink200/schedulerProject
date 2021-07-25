@@ -4,14 +4,14 @@ import { Row, Col , Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'r
 class Version extends Component {
     render() {
         return (
-            <section className="pb-5 scheduler-version">
-                <h1 className="ml-5 pt-3">Scheduler</h1>
-                <p className="ml-5 pt-2">
-                    Do you want to test and see the benefits of this scheduler before purchasing it? You can give the demo version a try. <br/> It contains enough basic features for you to get a feel of the design and also to test the quality of the service. Get it free on GitHub!
+            <section className="pb-5 scheduler-version text-center">
+                <h1 className="pt-3">Scheduler</h1>
+                <p className="pt-2 pr-3 pl-3">
+                    Do you want to test and see the benefits of this scheduler before purchasing it? You can give the demo version a try. <br/> It contains enough basic features for you to get a feel of the design and also to test the quality of the service.
                 </p>
-                <Row className="container text-center">
-                    <Col sm="4">
-                        <Card className="card-version-img ml-3 ">
+                <Row className="container mx-auto">
+                    <Col>
+                        <Card className="card-version-img mx-auto mb-4">
                             <CardImg
                                 src='../assets/images/orange-floral.jpg'
                             />
@@ -29,9 +29,8 @@ class Version extends Component {
                             </CardImgOverlay>
                         </Card>
                     </Col>
-                    <Col sm="4"></Col>
-                    <Col sm="4">
-                        <Card className="card-version-img mt-2 ml-3">
+                    <Col>
+                        <Card className="card-version-img mx-auto">
                             <CardImg
                                 src='../assets/images/orange-floral.jpg'
                             />

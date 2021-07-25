@@ -1,4 +1,4 @@
-/* CardAnimation CSS Below **********************************************************************************************************************************************************************/
+/* CardAnimation */
 .card-holder {
   position: absolute;
   height: 300px;
@@ -61,23 +61,28 @@
 .cardAnimationDiv {
   display: flex;
 }
-/* CardAnimation CSS Above **********************************************************************************************************************************************************************/
-
-/* animatedItems CSS Below **********************************************************************************************************************************************************************/
-
-/* animatedItems CSS Above **********************************************************************************************************************************************************************/
-
-/* Navbar Below **********************************************************************************************************************************************************************/
+/* Navbar */
 .navbar {
   background-color: #3da2c4;
   color: white;
 }
-/* Site Pages Below **********************************************************************************************************************************************************************/
+/* Site Pages */
 
 .site-pages {
   padding-top: 100px;
   width: 100%;
   text-align: center;
+}
+
+.site-footer {
+    background-image: linear-gradient(#17A2B8, white);
+    padding: 20px 0;
+}
+
+ul, ul li {
+    display: inline;
+    list-style: none;
+    padding-right:25px;
 }
 
 .gray-text {
@@ -87,15 +92,15 @@
 
 @media screen and (max-width: 600px) {
   .card-holder {
-   padding-top: 150px;
+   padding-top: 200px;
    width: 400px;
    left: calc(50% - 200px);
   }
 
-  .card-anime,.card-anime:hover, .card-anime:not(:first-child) {
+ /* .card-anime,.card-anime:hover, .card-anime:not(:first-child) {
   height: 280px;
   width: 180px;
   transform: none;
   -webkit-transform: none;
-  }
+  } */
 }
