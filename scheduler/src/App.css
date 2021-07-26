@@ -20,7 +20,7 @@
   transition: 0.4s ease-in-out;
   position: relative;
   left: 0px;
-  width:400px;
+  width:300px;
   height: auto;
   margin-top: 100px;
   margin-bottom: 0px;
@@ -75,7 +75,7 @@
 }
 
 .site-footer {
-    background-image: linear-gradient(#17A2B8, white);
+    background-color: #3da2c4;
     padding: 20px 0;
 }
 
@@ -85,22 +85,86 @@ ul, ul li {
     padding-right:25px;
 }
 
-.gray-text {
+.orange-text {
   color: #F8B72D;
   font-weight:bold;
 }
 
-@media screen and (max-width: 600px) {
+.hover-orange:hover {
+  color: orange !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
   .card-holder {
-   padding-top: 200px;
+   padding-top: 220px;
    width: 400px;
    left: calc(50% - 200px);
   }
 
- /* .card-anime,.card-anime:hover, .card-anime:not(:first-child) {
-  height: 280px;
-  width: 180px;
-  transform: none;
-  -webkit-transform: none;
-  } */
+  .scheduler{
+    display: none;
+  }
+
+  .gitHubImage {
+  width: 50px;
+  height:20px;
+  }
+  @keyframes gitHub {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    50% {
+      left: 90px;
+      top: 0px;
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .card-holder {
+   display: none;
+  }
+  .cardAnimationDiv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-holder {
+   padding-top: 200px;
+   width: 200px;
+   left: 10px;
+  }
+
+  .card-version-img {
+  width:200px;
+  font-size: 2rem;
+  }
+
+   .hero-text {
+    font-size: 1rem !important;
+    color:red !important;
+    text-align:center;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .card-holder {
+   padding-top: 200px;
+   width: 180px;
+  }
+
+  .card-version-img {
+  width:150px;
+  font-size: 1rem;
+  }
+
+ 
 }

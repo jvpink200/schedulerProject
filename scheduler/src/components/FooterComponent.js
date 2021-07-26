@@ -8,8 +8,8 @@ function Footer(props) {
                 <div className="row">             
                     <div className="mx-auto">
                         <ul>
-                            <li><Link to='/about'>About</Link></li>
-                            <li><Link to='/contact'>Contact</Link></li>
+                            <li><Link to='/about' className="text-white hover-orange">About</Link></li>
+                            <li><Link to='/contact' className="text-white hover-orange">Contact</Link></li>
                         </ul>
                     </div>
                 </div>

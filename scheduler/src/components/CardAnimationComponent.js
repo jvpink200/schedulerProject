@@ -6,8 +6,8 @@ class CardAnimation extends Component {
     return (
       <React.Fragment>
         <div className="pt-4 pb-1 text-center text-white orange">
-          <h2 className="gray-text">Impressive Collection of Features</h2>
-          <p className="pt-2">Designed to work seamlessly together</p>
+          <h2 className="orange-text">Impressive Collection of Features</h2>
+          <p className="pt-2 pl-2">Designed to work seamlessly together</p>
         </div>
         <div
           className='cardAnimationDiv'
@@ -18,7 +18,6 @@ class CardAnimation extends Component {
             margin: '0',
           }}
         />
-        <div className='page-body'>
           <div className='card-holder'>
             <Card className='card-anime'>
               <CardImg
@@ -52,7 +51,6 @@ class CardAnimation extends Component {
               />
             </Card>
           </div>
-        </div>
       </React.Fragment>
     );
   }
