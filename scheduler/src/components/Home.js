@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import peoplePlanning from "..//animatedImages/images/peoplePlanning.jpeg";
-import CardAnimationComponent from "./CardAnimationComponent";
+//import CardAnimationComponent from "./CardAnimationComponent";
 import AnimatingItems from "./animatedItems";
 import Version from "./DemoVersionComponent";
 
